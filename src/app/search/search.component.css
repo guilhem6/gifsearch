@@ -1,0 +1,18 @@
+.container {
+    text-align: center;
+  }
+  
+  .gifs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gif {
+    margin: 10px;
+  }
+  
+  .gif img {
+    max-width: 200px;
+    max-height: 200px;
+  }

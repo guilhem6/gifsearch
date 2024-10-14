@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>GIF search engine</h1>
+    <input [(ngModel)]="query" placeholder="Enter a keyword" class="form-control" />
+    <button (click)="search()" class="btn btn-primary mt-2">Search</button>
+<div class="gifs mt-4">
+    <div *ngFor="let gif of gifs" class="gif">
+        <img [src]="gif.images.fixed_height.url" alt="gif" />
+    </div>
+</div>
+</div>
