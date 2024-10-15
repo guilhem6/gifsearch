@@ -16,7 +16,7 @@ Download the code of this GitHub project and unzip it.
 ## 3. Create your own Giphy API key
 Create an account and create an API with the Giphy website :
 https://developers.giphy.com/
-Copy it and paste it in the project in src -> app -> giphy.service.ts, line 10, instead of 'API_KEY'
+Copy it and paste it in the project in src -> app -> giphy.service.ts, line 10, instead of the default one
 
 ## 4. Development server
 Run `ng serve` for a dev server, on the gifsearch-main folder. Navigate to `http://localhost:4200/`.
