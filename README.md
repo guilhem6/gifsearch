@@ -1,27 +1,21 @@
 # Gifsearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
+This project was generated with Angular CLI version 17.3.10 and then developped by Guilhem Mitton
 
-## Development server
+# Steps to initialize the project
+## 1. Installations
+Be sure to have Node (recommended version : 20.18.0) and Angular CLI (recommended version : 17.3.10)
+Node.js installation : https://nodejs.org/en/download/package-manager
+Angular installation : `npm install -g @angular/cli`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 2. Download the code
+Download the code of this GitHub project and unzip it.
 
-## Code scaffolding
+## 3. Create your own Giphy API key
+Create an account and create an API with the Giphy website :
+`https://developers.giphy.com/`
+Copy it and paste it in the project in src -> app -> giphy.service.ts, line 10, instead of 'API_KEY'
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 4. Development server
+Run `ng serve` for a dev server, on the gifsearch-main folder. Navigate to `http://localhost:4200/`.
+Try to search for GIFs ! Be sure to have your API key working and internet connection.
