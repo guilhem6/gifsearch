@@ -15,7 +15,10 @@ export class SearchComponent {
   gifs: any[] = [];
   query: string = '';
   constructor(private giphyService: GiphyService) {}
+
+  //GIF search function
   search() {
+    //Search if there is a non-empty query
     if (this.query.trim()) {
       this.giphyService.searchGifs(this.query).subscribe((response: any) => {
         this.gifs = response.data;
