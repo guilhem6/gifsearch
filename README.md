@@ -4,8 +4,10 @@ This project was generated with Angular CLI version 17.3.10 and then developped 
 
 # Steps to initialize the project
 ## 1. Installations
-Be sure to have Node (recommended version : 20.18.0) and Angular CLI (recommended version : 17.3.10)
+Be sure to have Node (recommended version : 20.18.0) and Angular CLI (recommended version : 17.3.10).
+
 Node.js installation : https://nodejs.org/en/download/package-manager
+
 Angular installation : `npm install -g @angular/cli`
 
 ## 2. Download the code
@@ -13,7 +15,7 @@ Download the code of this GitHub project and unzip it.
 
 ## 3. Create your own Giphy API key
 Create an account and create an API with the Giphy website :
-`https://developers.giphy.com/`
+https://developers.giphy.com/
 Copy it and paste it in the project in src -> app -> giphy.service.ts, line 10, instead of 'API_KEY'
 
 ## 4. Development server
