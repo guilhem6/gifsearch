@@ -6,11 +6,12 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class GiphyService {
-
-  private apiKey = 'API_KEY';
+  //Change with your API key
+  private apiKey = 'sQkK7IYkmxMGIZAATYstbpRRYcX54UST';
   private apiUrl = 'https://api.giphy.com/v1/gifs/search';
   constructor(private http: HttpClient) { }
-  
+
+  //API call
   searchGifs(query: string): Observable<any> {
     const params = {
       api_key: this.apiKey,
